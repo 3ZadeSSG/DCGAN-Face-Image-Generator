@@ -13,6 +13,16 @@ For training CelebFaces Attributes Dataset (CelebA) has been used. The processed
 
 * [Processed Dataset Link](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip)
 
+### Setup
+
+Run following commands
+
+     
+     pip install -r requirements.txt  
+     
+
+
+
 ### Files
 
 All code for training and network architecture can be found in `DCGAN_for_Image_Generation.ipynb`. For more detailed explanation of core concept `Original Training Notebook/dlnd_face_generation.ipynb` can be studied.
@@ -24,3 +34,11 @@ All code for training and network architecture can be found in `DCGAN_for_Image_
 | <img src="https://github.com/3ZadeSSG/Face-Generation-with-DCGAN/blob/main/output/Input_Album.PNG" height="35px"/> | <img src="https://github.com/3ZadeSSG/Face-Generation-with-DCGAN/blob/main/output/Output_Album.png" height="35px"/> |
 
 
+### Compute Resource
+With batch size = 64 and model defined in training notebook, It takes 1 min (Approx) to run a single epoch on following hardware resources available on Google Colab
+        
+        Intel(R) Xeon(R) CPU @ 2.20GHz [Core(s) per socket:  1 | Thread(s) per core:  2 ]
+        Tesla T4 [CUDA Version: 10.1]
+        
+  
+        
